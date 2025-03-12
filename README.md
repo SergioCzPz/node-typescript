@@ -77,6 +77,8 @@ This will execute `dist/app.js`
 
 - Working with [Express](https://expressjs.com) with Typescript, could make a little hard, consider use [Disable eslint rules](https://eslint.org/docs/latest/use/configure/rules#disabling-inline-comments) just disabling inline comments.
 
+- This project uses [Commilint](https://commitlint.js.org) and pre commit hook with [Husky](https://typicode.github.io/husky)
+
 ## Contributing
 
 1. Fork the repository.
