@@ -1,3 +1,26 @@
-node_modules/
-dist/
+# General files and directories to work with node.js
+node_modules
+dist
+build
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Configuration files and manifests
+
 .env
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.cache
+
+# IDEs files
+
+.idea/
+.vscode/
+
+# OS files
+
+.DS_Store
+Thumbs.db
