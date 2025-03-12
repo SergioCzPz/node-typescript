@@ -45,7 +45,15 @@ npm run prepare
 
 ## Usage
 
-All the files to be transpile most to be inside `src/` folder and the entry point is `src/app.ts`
+All the files to be transpile most to be inside `src/` folder and the entry point is `src/app.ts`.
+
+### Extensions
+
+Extensions you should have:
+
+1. Prettier
+
+2. ESLint
 
 ### Develope
 
