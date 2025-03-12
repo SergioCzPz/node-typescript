@@ -1,0 +1,15 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "sourceMaps": true,
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    },
+    "target": "es2018"
+  },
+  "module": {
+    "type": "commonjs",
+    "resolveFully": true
+  },
+  "minify": false
+}
