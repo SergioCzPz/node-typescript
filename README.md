@@ -27,13 +27,19 @@ Ready to use simple template to work with:
 git clone https://github.com/SergioCzPz/node-typescript.git
 ```
 
-2. Install dependencies:
+2. Define node version in `.node-version`
+
+```bash
+node -v > .node-version
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Husky
+4. Husky
 
 To work with pre-commint hook
 
@@ -45,7 +51,7 @@ npm run prepare
 
 ## Usage
 
-All the files to be transpile most to be inside `src/` folder and the entry point is `src/app.ts`.
+All the files to be transpile must to be inside `src/` folder and the entry point is `src/app.ts`.
 
 ### Extensions
 
