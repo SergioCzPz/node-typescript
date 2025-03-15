@@ -3,7 +3,10 @@
   "compilerOptions": {
     "target": "es2018",
     "module": "commonjs",
-    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+      "@controllers/*": ["src/controllers/*"]
+    },
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "./dist",
